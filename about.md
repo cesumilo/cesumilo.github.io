@@ -4,12 +4,21 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My first passion is learning. It brought me into areas I would never have imagined and it pushed me to surpass myself every day.
+
+My second passion is entrepreneurship. Whether it was a success or a failure, each company has given me invaluable experience.
+
+Finally, I particularly appreciate new encounters and the learning of new cultures. 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+**Hobbies**
+
+- Poker
+- Artificial Intelligence
+- Workout
+- Gaming
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[LinkedIn](https://www.linkedin.com/in/guillaume-robin-358168b1/)
