@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Guillaume Robin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "My first passion is learning. It brought me into areas I would never have imagined and it pushed me to surpass myself every day.<br />My second passion is entrepreneurship. Whether it was a success or a failure, each company has given me invaluable experience.<br />Finally, I particularly appreciate new encounters and the learning of new cultures."
+  bio              : "My first passion is learning. It brought me into areas I would never have imagined and it pushed me to surpass myself every day.\n\nMy second passion is entrepreneurship. Whether it was a success or a failure, each company has given me invaluable experience.\n\nFinally, I particularly appreciate new encounters and the learning of new cultures."
   location         : "France"
   email            : 
   links:
