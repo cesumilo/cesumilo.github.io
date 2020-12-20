@@ -70,7 +70,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "cesumilo"
 facebook:
   username               :
   app_id                 :
@@ -85,39 +85,35 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-96590008-1"
+    anonymize_ip         : true
 
 
 # Site Author
 author:
   name             : "Guillaume Robin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "My first passion is learning. It brought me into areas I would never have imagined and it pushed me to surpass myself every day.
-
-My second passion is entrepreneurship. Whether it was a success or a failure, each company has given me invaluable experience.
-
-Finally, I particularly appreciate new encounters and the learning of new cultures."
-  location         : "Somewhere"
-  email            :
+  bio              : "My first passion is learning. It brought me into areas I would never have imagined and it pushed me to surpass myself every day.\n\nMy second passion is entrepreneurship. Whether it was a success or a failure, each company has given me invaluable experience.\n\nFinally, I particularly appreciate new encounters and the learning of new cultures."
+  location         : "France"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:robinguillaume.pro@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://cesumilo.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/cesumilo"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/cesumilo"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -127,13 +123,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/cesumilo"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/cesumilo"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
