@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman"
+  provider               : "utterances"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -41,11 +41,11 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
+    theme                : "github-dark"
     issue_term           : # "pathname" (default)
   staticman:
-    branch               : "master"
-    endpoint             : "https://api.staticman.net/v3/entry/github/"
+    branch               : # "master"
+    endpoint             : # "https://api.staticman.net/v3/entry/github/"
 reCaptcha:
   siteKey                : "6LemAg4aAAAAAMeXpa9uinlQd8BhBywxn2MJFzxa"
   secret                 : "lwhIZXi6JHaquAlubmoC0KXLEMfQ1b+Z3AaP4qsyMxHeYU29waU1FG2nRaZ4ViWApZmJUg3cDV1N7EPbndjweSVsNdZUJRqOjhabdOhAkV3i4xHrcmbFDr1kj2GEPbrXJGBNgr6eVVpBX1qpIQluRChKmUQ8EIOj8TgKpm7woZA="
