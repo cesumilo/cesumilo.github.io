@@ -1,10 +1,10 @@
 baseURL = "https://cesumilo.github.io"
 languageCode = "en-us"
 title = "Cesumilo's blog"
-theme = "hugo-ink"
+theme = "minimal-mistakes-jekyll"
 paginate = 5
 
-copyright = "© Copyright notice"
+copyright = "© Guillaume Robin Copyright"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
