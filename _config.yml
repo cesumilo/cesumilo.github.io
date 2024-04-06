@@ -70,7 +70,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "cesumilo"
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -79,7 +79,7 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : 
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
@@ -105,9 +105,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://cesumilo.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/cesumilo"
+    - label: "Bluesky"
+      icon: "fas fa-fw fa-link"
+      url: "https://bsky.app/profile/cesumilo.bsky.social"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -121,9 +121,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/cesumilo"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-link"
+      url: "https://bsky.app/profile/cesumilo.bsky.social"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -219,6 +219,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -227,6 +228,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 
 # Archives

@@ -16,6 +16,6 @@
 
 {%- for post in entries -%}
   {%- unless post.hidden -%}
-    {% include archive-single.html %}
+    {% include_cached archive-single.html %}
   {%- endunless -%}
 {%- endfor -%}
