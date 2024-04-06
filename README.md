@@ -11,3 +11,11 @@ bundle install --path vendor/bundle
 ```bash
 bundle exec jekyll serve
 ```
+
+## Deployment
+
+```bash
+git add .
+git commit -m "beautiful commit message ;)"
+git push origin master
+```
