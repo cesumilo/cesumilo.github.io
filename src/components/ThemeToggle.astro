@@ -1,0 +1,26 @@
+---
+// src/components/ThemeToggle.astro
+---
+<button
+  id="theme-toggle"
+  aria-label="Toggle dark mode"
+  style="background: var(--color-primary); color: white; border: none; padding: 0.5rem; border-radius: 50%; cursor: pointer;"
+>
+  🌓
+</button>
+
+<script is:inline>
+  const toggleTheme = () => {
+    document.body.classList.toggle('dark-mode');
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+  };
+
+  // Load saved theme preference
+  if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark-mode');
+  }
+
+  document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+</script>
+

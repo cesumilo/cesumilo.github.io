@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro'
+const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
+
+// Sort posts by date (newest first)
+allPosts.sort((a, b) => {
+  const dateA = new Date(a.frontmatter.date);
+  const dateB = new Date(b.frontmatter.date);
+  return dateB - dateA;
+});
+---
+
+<Layout>
+  <section style="max-width: 800px; margin: 0 auto; padding: 2rem;">
+    <h1>Blog</h1>
+
+    <ul style="list-style: none; padding: 0;">
+      {allPosts.map(post => (
+        <li style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-primary);">
+          <a href={`/posts/${post.file.split('/').pop().replace('.astro', '').replace('.md', '')}`} style="color: var(--color-primary); text-decoration: none;">
+            <h2 style="margin-bottom: 0.5rem;">{post.frontmatter.title}</h2>
+          </a>
+          <p style="margin-bottom: 0.5rem;">{post.frontmatter.date}</p>
+          <p>{post.frontmatter.description}</p>
+          <a href={`/posts/${post.file.split('/').pop().replace('.astro', '').replace('.md', '')}`} style="color: var(--color-accent);">Read more →</a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Layout>
